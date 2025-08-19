@@ -9,8 +9,8 @@
     header { background: #222; color: #77d3de; padding: 20px 0; font-size: 22px; }
         nav { margin-top: 15px; }
     nav a { color: #fff; margin: 0 10px; text-decoration: none; font-weight: bold; font-size: 20px; }
-    .hero { background: #cccaca; padding: 60px 20px; text-align: center; font-size: 20px; }
-    .section { padding: 24px 10px; max-width: 900px; margin: 0 auto; font-size: 20px; }
+    .hero { background: #e0dbdb; padding: 40px 30px; text-align: center; font-size: 20px; }
+    .section { padding: 50px 10px; max-width: 1000px; margin: 0 auto; font-size: 25px; }
     h2 { color: #222; font-size: 2.3em; margin-top: 0.3em; margin-bottom: 0.3em; }
         ul.skills {
             list-style: none;
@@ -68,6 +68,7 @@
                 <a href="#hero">Home</a>
                 <a href="#about">About Me</a>
                 <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
     </header>
@@ -76,12 +77,13 @@
     <p>I'm Steysy Callejas, I turn data into stories, insights, and smart actions. Let’s make your data work for you.</p>
     </section>
     <section class="section" id="about">
-    <h2>About Me</h2>
+    <h2 style="margin-bottom: 1.2em;">About Me</h2>
     <p>Hello! I'm Steysy Callejas, a student from Tripleten currently enrolled in the Data Science bootcamp. I am excited to learn as much as possible about this fascinating profession. My journey in data science is driven by curiosity and a passion for uncovering insights from data. I am eager to develop my skills and contribute to impactful projects as I continue to grow in this field.</p>
     </section>
     <section class="section" id="skills">
         <h2>Skills</h2>
-    <ul class="skills">
+        <h3 style="color:#222; font-size:1.2em; margin-bottom:0.3em;">Technical Skills</h3>
+    <ul class="skills" style="display:grid; grid-template-columns:1fr 1fr; gap:0 32px;">
             <li>Python</li>
             <li>Pandas</li>
             <li>NumPy</li>
@@ -90,7 +92,26 @@
             <li>SQL</li>
             <li>Statistics</li>
             <li>Deep Learning</li>
-    </ul>
+        </ul>
+        <h3 style="color:#222; font-size:1.2em; margin-bottom:0.3em; margin-top:1.2em;">Soft Skills</h3>
+    <ul class="skills" style="display:grid; grid-template-columns:1fr 1fr; gap:0 32px;">
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Problem Solving</li>
+            <li>Adaptability</li>
+            <li>Critical Thinking</li>
+            <li>Time Management</li>
+            <li>Creativity</li>
+            <li>Attention to Detail</li>
+        </ul>
     </section>
+    <footer id="contact" style="background:#222; color:#77d3de; text-align:center; padding:18px 10px 18px 10px; font-size:18px;">
+        <h2 style="color:#77d3de; margin-top:0; margin-bottom:10px; font-size:1.5em;">Contact</h2>
+        <span>📞 <a href="tel:+18083855975" style="color:#77d3de; text-decoration:none;">808-385-5975</a></span>
+        &nbsp;|&nbsp;
+        <span><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="height:1em;vertical-align:middle;"> <a href="https://wa.me/50246937192" target="_blank" style="color:#77d3de; text-decoration:none;">+502-4693-7192</a></span>
+        &nbsp;|&nbsp;
+    <span><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" alt="Email" style="height:1em;vertical-align:middle;"> <a href="mailto:steysmcallejas@gmail.com" style="color:#77d3de; text-decoration:none;">steysmcallejas@gmail.com</a> | <a href="mailto:steysmcallejas@hotmail.com" style="color:#77d3de; text-decoration:none;">steysmcallejas@hotmail.com</a></span>
+    </footer>
 </body>
 </html>
